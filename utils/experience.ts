@@ -2,7 +2,7 @@ export const experience = [
   {
     title: 'Wela Online System',
     position: 'Junior Web Developer(Intern)',
-    time: 'August - September 2022',
+    time: 'August - October 2022',
     location: 'Ideaspace 172 Salcedo, Legazpi Village, Makati City, Philippines',
     description:
       'Engage in close collaboration with both the design and development teams to foster a cohesive and synergistic workflow that ensures the successful realization of projects.',
