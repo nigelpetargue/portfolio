@@ -40,15 +40,14 @@ export default function Hero() {
         >
           <Image
             className={styles.profile}
-            src="/284268199_509978970880601_3996378834866403976_n.jpg"
+            src='/284268199_509978970880601_3996378834866403976_n.jpg'
             priority
-            alt="John Carlo Devera | Frontend Developer"
+            alt='Nigel Petargue | Software Developer'
             width={250}
             height={250}
           />
         </motion.div>
       </div>
-      {/* <Dots /> */}
     </section>
   );
 }
