@@ -1,9 +1,11 @@
-'use client';
+/** @format */
 
-import styles from '@/styles/contact.module.scss';
-import { AiFillMail } from 'react-icons/ai';
-import Reveal from './Reveal';
-import Link from 'next/link';
+"use client"
+
+import styles from "@/styles/contact.module.scss"
+import { AiFillMail } from "react-icons/ai"
+import Reveal from "./Reveal"
+import Link from "next/link"
 
 export default function Contact() {
   return (
@@ -17,7 +19,7 @@ export default function Contact() {
         <Reveal width="100%">
           <p className={styles.contactCopy}>
             Have an idea to discuss? Shoot me an email if you want to connect! You can also find me
-            on
+            on &nbsp;
             <Link
               href="https://www.linkedin.com/in/nigel-petargue-b31704259/"
               target="_blank"
@@ -25,11 +27,11 @@ export default function Contact() {
             >
               Linkedin
             </Link>
-            or
+            &nbsp; or &nbsp;
             <Link href="https://join.skype.com/invite/u9O4Fsbi7tPX" target="_blank" rel="nofollow">
               Skype
             </Link>
-            if that&apos;s more your speed.
+            &nbsp; if that&apos;s more your speed.
           </p>
         </Reveal>
         <Reveal width="100%">
@@ -42,5 +44,5 @@ export default function Contact() {
         </Reveal>
       </div>
     </section>
-  );
+  )
 }
