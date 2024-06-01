@@ -3,7 +3,7 @@ export const projects = [
     title: 'Sclique E-commerce',
     imgSrc: '/sclique.png',
     code: 'https://github.com/ChrisNics/rnj-sclique',
-    projectLink: 'https://sclique.store/',
+    projectLink: https://sclique-chrisnics.vercel.app/?fbclid=IwAR2Dc5dICnBbPSlu11DHvHshxtPLAR7y_JgVmfljBgjc3o9MgKdP9CzTBIw',
     tech: ['React', 'Nextjs', 'Mongoose', 'Zustand', 'Mantine', 'Vercel'],
     description: 'Discover Sclique E-commerce: Home to Stylish Window Accordions Nationwide.',
     modalContent: (
