@@ -1,10 +1,10 @@
-'use client';
-import styles from '@/styles/hero.module.scss';
+'use client'
+import styles from '@/styles/hero.module.scss'
 
-import { motion } from 'framer-motion';
-import StandardButton from '@/components/Buttons/Standard';
-import Reveal from '@/components/Reveal';
-import Image from 'next/image';
+import { motion } from 'framer-motion'
+import StandardButton from '@/components/Buttons/Standard'
+import Reveal from '@/components/Reveal'
+import Image from 'next/image'
 
 export default function Hero() {
   return (
@@ -23,12 +23,14 @@ export default function Hero() {
           </Reveal>
           <Reveal>
             <p className={styles.aboutCopy}>
-              An aspiring software developer committed to crafting user friendly, digital interfaces
-              for all to enjoy
+              A skilled software developer dedicated to building innovative, user-centric
+              digital solutions that deliver exceptional experiences.
             </p>
           </Reveal>
           <Reveal>
-            <StandardButton onClick={() => document.getElementById('contact')?.scrollIntoView()}>
+            <StandardButton
+              onClick={() => document.getElementById('contact')?.scrollIntoView()}
+            >
               Contact me
             </StandardButton>
           </Reveal>
@@ -49,5 +51,5 @@ export default function Hero() {
         </motion.div>
       </div>
     </section>
-  );
+  )
 }
