@@ -1,5 +1,24 @@
 export const projects = [
   {
+    title: 'Glowing',
+    imgSrc: '/glowing.png',
+    code: 'https://ecommerce-glowing-one.vercel.app/',
+    projectLink: 'https://ecommerce-glowing-one.vercel.app/',
+    tech: ['React', 'Nextjs', 'Mantine', 'Zustand', 'GraphQL', 'Supabase'],
+    description: 'Your destination for premium cosmetics and skin-whitening products.',
+    modalContent: (
+      <>
+        <p>
+          I independently designed and developed an e-commerce platform that delivers a seamless shopping experience.
+        </p>
+        <p>
+          Inspired by my work on Glowing, I focused on intuitive navigation and visually appealing layouts to effectively showcase products and connect buyers with what they need.
+        </p>
+      </>
+    ),
+    
+  },
+  {
     title: 'Sclique E-commerce',
     imgSrc: '/sclique.png',
     code: 'https://sclique-chrisnics.vercel.app/?fbclid=IwAR2Dc5dICnBbPSlu11DHvHshxtPLAR7y_JgVmfljBgjc3o9MgKdP9CzTBIw',
