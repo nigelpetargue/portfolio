@@ -5,7 +5,8 @@ export const projects = [
     code: 'https://evo-gym-three.vercel.app/',
     projectLink: 'https://evo-gym-three.vercel.app/',
     tech: ['React', 'Vite', 'Tailwindcss', 'Typescript', 'Framer Motion', 'Vercel'],
-    description: 'Your destination for premium cosmetics and skin-whitening products.',
+    description:
+      'Elevate your fitness journey with premium training, top-tier equipment, and world-class studios.',
     modalContent: (
       <>
         <p>
